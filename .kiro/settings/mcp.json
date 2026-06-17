@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "video-store": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/home/comejia/projects/mcp-servers-project/2_intro",
+        "run",
+        "mcp_db_server.py"
+      ]
+    }
+  }
+}

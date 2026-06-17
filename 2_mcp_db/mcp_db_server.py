@@ -133,4 +133,5 @@ def execute_query(sql: str) -> List[Dict[str, Any]]:
 
 # Start point
 if __name__ == "__main__":
+    # mcp.run(transport="http", host="127.0.0.1", port=8080, path="/mcp")
     mcp.run()
