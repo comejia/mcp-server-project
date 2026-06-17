@@ -4,9 +4,18 @@
       "command": "uv",
       "args": [
         "--directory",
-        "/home/comejia/projects/mcp-servers-project/2_intro",
+        "/home/comejia/projects/mcp-servers-project/2_mcp_db",
         "run",
-        "mcp_db_server.py"
+        "db_mcp_server.py"
+      ]
+    },
+    "gmail-manager": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/home/comejia/projects/mcp-servers-project/3_mcp_gmail",
+        "run",
+        "gmail_mcp_server.py"
       ]
     }
   }

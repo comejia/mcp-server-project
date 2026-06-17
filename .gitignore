@@ -46,3 +46,8 @@ dist/
 
 # CSV files
 data/processed/*.csv
+
+# Others
+*_mcp_*/credentials.json
+*_mcp_*/token.pickle
+*_mcp_*/uv.lock

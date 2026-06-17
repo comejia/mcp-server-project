@@ -1,17 +1,10 @@
 [project]
-name = "mcp-servers-project"
+name = "db-mcp-server"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastmcp>=3.4.2",
 ]
 
-[dependency-groups]
-dev = [
-    "pre-commit>=4.6.0",
-]
-
 [project.scripts]
-mcp-db-server = "mcp_db_server:main"
+db-mcp-server = "db_mcp_server:main"
