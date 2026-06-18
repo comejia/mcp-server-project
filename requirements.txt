@@ -541,6 +541,10 @@ pyparsing==3.3.2 \
     --hash=sha256:850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d \
     --hash=sha256:c777f4d763f140633dcb6d8a3eda953bf7a214dc4eff598413c070bcdc117cbc
     # via httplib2
+pypdf2==3.0.1 \
+    --hash=sha256:a74408f69ba6271f71b9352ef4ed03dc53a31aa404d29b5d31f53bfecfee1440 \
+    --hash=sha256:d16e4205cfee272fbdc0568b68d82be796540b1537508cef59388f839c191928
+    # via mcp-servers-project
 pyperclip==1.11.0 \
     --hash=sha256:244035963e4428530d9e3a6101a1ef97209c6825edab1567beac148ccc1db1b6 \
     --hash=sha256:299403e9ff44581cb9ba2ffeed69c7aa96a008622ad0c46cb575ca75b5b84273
