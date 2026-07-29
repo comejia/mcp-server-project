@@ -374,6 +374,7 @@ httpx==0.28.1 \
     # via
     #   fastmcp-slim
     #   mcp
+    #   ollama
     #   openai
 httpx-sse==0.4.3 \
     --hash=sha256:0ac1c9fe3c0afad2e0ebb25a934a59f4c7823b60792691f779fad2c5568830fc \
@@ -643,6 +644,10 @@ oauthlib==3.3.1 \
     --hash=sha256:0f0f8aa759826a193cf66c12ea1af1637f87b9b4622d46e866952bb022e538c9 \
     --hash=sha256:88119c938d2b8fb88561af5f6ee0eec8cc8d552b7bb1f712743136eb7523b7a1
     # via requests-oauthlib
+ollama==0.6.2 \
+    --hash=sha256:3ad7daab28e5a973445c36a73882a3ef698c2ebb00e21e308652741577509f7d \
+    --hash=sha256:936d55daa684f474364c098611c933626f8d6c7d67065c5b7ae0c477b508b07f
+    # via mcp-servers-project
 openai==2.43.0 \
     --hash=sha256:65a670b54fadf2268c9e1330133373c963eb779ee969e5cbad419ec2c21dce97 \
     --hash=sha256:e74d238200a26868977002190fb6631613480a93dfe0c9c982e77021ed60a017
@@ -854,6 +859,7 @@ pydantic==2.13.4 \
     # via
     #   fastmcp-slim
     #   mcp
+    #   ollama
     #   openai
     #   openapi-pydantic
     #   pydantic-settings
