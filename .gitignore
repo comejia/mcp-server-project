@@ -51,3 +51,5 @@ data/processed/*.csv
 **/credentials.json
 **/token.pickle
 *_mcp_*/uv.lock
+**/keypair.json
+**/client_token.txt
