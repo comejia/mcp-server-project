@@ -9,16 +9,17 @@ load_dotenv()
 
 
 class GmailMCPClient:
-    def __init__(self, mcp_server_path: str):
+    def __init__(self, mcp_server_path: str, user_id: str = "gmail-client"):
         self.mcp_server_path = mcp_server_path
+        self.user_id = user_id
         self.ollama_model = os.getenv("OLLAMA_MODEL", "qwen3.5:9b")
         self.ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
         self.ollama_client = ollama.Client(host=self.ollama_host)
-        self.token = self._load_token()
+        self.token = self._load_token(user_id)
 
-    def _load_token(self) -> str:
+    def _load_token(self, user_id: str) -> str:
         """Carga el token de auth"""
-        token_file = Path(__file__).resolve().parent / "client_token.txt"
+        token_file = Path(__file__).resolve().parent / f"{user_id}_token.txt"
         if token_file.exists():
             with open(token_file, "r") as file:
                 return file.read().strip()

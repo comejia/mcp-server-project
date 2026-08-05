@@ -52,4 +52,4 @@ data/processed/*.csv
 **/token.pickle
 *_mcp_*/uv.lock
 **/keypair.json
-**/client_token.txt
+**/*_token.txt
